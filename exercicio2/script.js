@@ -1,7 +1,5 @@
-let tabuada = 0
-console.log('Tabuada de 7: ')
-for (let i = 0; i <=10; i++){
-    tabuada =7*i
-    console.log(`7x${i} = ${tabuada}`);
+let num = +prompt("Num")
+
+for ( let i = 0; i <= 10; i++ ) {
+    console.log(num * i);
 }
-console.log('')
